@@ -22,14 +22,16 @@ export default function MentionsScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    
+    margin: 15,
   },
   title: {
-    fontSize: 30,
+    fontWeight: "bold",
+    fontSize: 27,
     marginTop: 20,
-    marginBottom: 10
+    marginBottom: 10,
   },
   caption: {
-    fontSize: 25
+    fontSize: 22,
+    fontWeight: "bold",
   }
 });
